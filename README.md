@@ -1,41 +1,40 @@
-## Tip Calculator
+## Treasure Island
 
 # Instructions
 
-If the bill was $150.00, split between 5 people, with 12% tip. 
+Make your own "Choose Your Own Adventure" game. Use conditionals such as `if`, `else`, and `elif` statements to lay out the logic and the story's path in your program. 
 
-Each person should pay (150.00 / 5) * 1.12 = 33.6
+[To write your code according to my story, you can use this flow chart from draw.io to help you.](https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload)
 
-Format the result to 2 decimal places = 33.60
+However, I think the fun part is writing your *own* story 😊
 
-Thus everyone's share of the total bill is $30.00 plus a $3.60 tip.
+🧞‍♂️ 🐊 🧙‍♂️ 🧟 🧚‍♂️ 🧝‍♂️ 🥷 🤖 👽 🙀 
 
-Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
+That said if you'd like to continue with my example, feel free to use the text snippets below...
 
+### Text Snippets from my example
 
-# Example Input
+* 'You\'re at a crossroad. Where do you want to go? Type "left" or "right"'
+* 'You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across.'
+* "You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?"
+* "It's a room full of fire. Game Over."
+* "You found the treasure! You Win!"
+* "You enter a room of beasts. Game Over."
+* "You chose a door that doesn't exist. Game Over."
+* "You get attacked by an angry trout. Game Over."
+* "You fell into a hole. Game Over."
 
-```
-Welcome to the tip calculator!
-What was the total bill? $124.56
-How much tip would you like to give? 10, 12, or 15? 12
-How many people to split the bill? 7
-```
+# Escaping Characters
 
-# Example Output
+If you want to use multiple sets of quotes inside a single string, you might have to "escape" some of them using the backslash `\`. You can see this in my first sentence: 'You\'re at a crossroad...'. [More on escaping characters here.](https://www.w3schools.com/python/gloss_python_escape_characters.asp)
 
-```
-Each person should pay: $19.93
-```
+# Extensions
 
+Have a think about how you might write your program to make a player's answers less case-sensitive. In other words, your code should work regardless of whether your user answers "left" or "Left".
 
-# Hint
-
-1. [How to round a number to 2 decimal places in Python](https://www.google.com/search?q=how+to+round+number+to+2+decimal+places+python&oq=how+to+round+number+to+2+decimal)
-2. [How to limit a float to two decimal places in Python](https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python)
-
+[You can also add your own ASCII art](https://ascii.co.uk/art). Just remember to add three single quotes `'''` at the start and at the end of your artwork to turn it into a multi-line string. 
 
 
 # Solution
 
-[https://replit.com/@appbrewery/tip-calculator-end](https://replit.com/@appbrewery/tip-calculator-end)
+[https://replit.com/@appbrewery/treasure-island-end#main.py](https://replit.com/@appbrewery/treasure-island-end)
